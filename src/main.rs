@@ -29,6 +29,10 @@ fn main() {
             cli::clear();
             working_with::struct_sample::run();
         }
+        "3" => {
+            cli::clear();
+            working_with::hash_map_sample::run();
+        }
         _ => println!("Exiting the program!"),
     }
 }

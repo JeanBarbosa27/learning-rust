@@ -1,5 +1,7 @@
 pub mod input;
 pub mod output;
+pub mod paginator;
+
 pub fn clear() {
     let mut clear_command: &str = "clear";
     if cfg!(windows) {
